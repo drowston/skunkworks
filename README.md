@@ -10,7 +10,7 @@ My IaC Playground
   * Configuration Management: Ansible
   * Continuous Integration:   Jenkins
   * Containerization:         Docker
-  * Orcestration:             Kubbernetes
+  * Orcestration:             Kubernetes
   * Monitoring:               Prometheus
   * Logging:                  Elastic Search, Logstash, Kibana
   * Graphing:                 Grafana
