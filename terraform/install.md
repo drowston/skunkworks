@@ -55,4 +55,18 @@ instance_type = "${instance type}"
   * "aws_instance" 
 
 ### ami_id
-  * 
+  * See ../aws/aws_find_ami_image_ids.md 
+
+### instance_type
+  * See https://aws.amazon.com/ec2/instance-types/
+
+```
+Model 	      vCPU* 	Mem (GB)   Storage Network Performance
+t2.nano 	1 	0.5 	   Low
+t2.micro 	1 	1 	   Low to Moderate
+t2.small 	1 	2 	   Low to Moderate
+t2.medium 	2 	4 	   Low to Moderate
+t2.large 	2 	8 	   Low to Moderate
+t2.xlarge 	4 	16 	   Moderate
+t2.2xlarge 	8 	32 	   Moderate
+```
