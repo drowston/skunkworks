@@ -1,0 +1,13 @@
+# This Dockerfile will create a nginx image with /var/www/html set as the path. 
+#  Get base image with tag "latest"
+FROM nginx:latest
+
+# Add custom index.html 
+ADD /var/www/html/index.html /usr/share/nginx/html/
+
+# Add read permissions to index.html
+RUN chmod +r /usr/share/nginx/html/index.html
+
+# "nginx -g daemon off" will run as default command. 
+CMD ["nginx", "-g", "daemon off;"]
+
